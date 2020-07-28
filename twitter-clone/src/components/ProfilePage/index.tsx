@@ -15,12 +15,12 @@ const ProfilePage: React.FC = () => {
     <Container>
       <Banner>
         <Avatar />
-
-        <ProfileData>
-          {/* <EditButton outlined>Editar perfil</EditButton> */}
+      </Banner>
+      <ProfileData>
+        {/* <EditButton outlined>Editar perfil</EditButton> */}
         
-        <h1>ELiezer Garbin</h1>
-        <h2>@eliezergarbin</h2>
+        <h1>ELiezer G.</h1>
+        <h2>@EliezerGarbin</h2>
 
         <p>
           Software Engineering Jr
@@ -45,10 +45,9 @@ const ProfilePage: React.FC = () => {
             <strong>56 </strong> seguidores
           </span>
         </Followage>
-        </ProfileData>
-      </Banner>
+      </ProfileData>
     </Container>
   );
-}
+};
 
 export default ProfilePage;
