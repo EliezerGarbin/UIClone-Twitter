@@ -2,6 +2,8 @@ import React from 'react';
 
 import Feed from '../Feed';
 
+import eliezer from '../../assets/perfil.jpg';
+
 import { 
   Container, 
   Banner, 
@@ -17,7 +19,7 @@ const ProfilePage: React.FC = () => {
   return(
     <Container>
       <Banner>
-        <Avatar />
+        <Avatar src={eliezer} alt="foto de perfil" />
       </Banner>
       <ProfileData>
         <EditButton outlined>Editar perfil</EditButton>
