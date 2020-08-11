@@ -69,4 +69,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
 # UIClone-Twitter
->>>>>>> bfe1495a161ae292f46b2f71cf32b0a3a1d5f6c8
